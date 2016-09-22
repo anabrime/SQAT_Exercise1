@@ -27,3 +27,6 @@ EditAction 1474546962366 TestBowling.java 742 5 10 5
 EditAction 1474546963812 Frame.java 890 6 9 0
 EditAction 1474546963929 BowlingGame.java 692 4 2 0
 EditAction 1474546970235 TestBowling.java 710 5 10 5
+UnitTestCaseAction 1474546995819 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474546995820 SudokuVerifierTest.java OK
+EditAction 1474547013138 Frame.java 888 6 9 0
