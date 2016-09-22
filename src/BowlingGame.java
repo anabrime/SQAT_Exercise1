@@ -22,42 +22,42 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 
-		for (int i = 0; i < frames.size(); i++) {
+		for (int i = 0; i < frames.size() - 1 ; i++) {
 
 			if(frames.get(i).isStrike()){
-				bonus = firstThrow + secondThrow;
+
+				bonus = frames.get(i+1).getFirstThrow() + frames.get(i+1).getSecondThrow();
+
 			}else if(frames.get(i).isSpare()){
-				bonus = firstThrow;
+
+				bonus = frames.get(i+1).getFirstThrow();
+
 			}
-
-
-
-
-			int size = frames.size() - 1;
-
-
-			if(frames.get(size).isStrike()){
-
-				bonus = firstThrow + secondThrow;	
-
-			}else if(frames.get(size).isSpare()){
-				bonus = firstThrow;
-			}
-
-
-
-
-
 		}
 
-		// Returns the game score
-		public int score(){
-			//to be implemented: should return game score 
+
+		int size = frames.size() - 1;
 
 
+		if(frames.get(size).isStrike()){
 
-
+			bonus = frames.get(frames.size()).getFirstThrow() + frames.get(frames.size()).getSecondThrow();
+		
+		}else if(frames.get(size).isSpare()){
+			
+			bonus = frames.get(frames.size()).getFirstThrow();
+		
 		}
+
+	}
+
+	// Returns the game score
+	public int score(){
+		//to be implemented: should return game score 
+
+		
+
+
 
 
 		return 0;
