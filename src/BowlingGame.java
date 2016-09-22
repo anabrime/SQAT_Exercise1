@@ -7,7 +7,7 @@ import java.util.List;
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
-	private int bonus;
+	private Frame bonus;
 
 	public BowlingGame(){}
 
@@ -22,32 +22,7 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 
-		for (int i = 0; i < frames.size() - 1 ; i++) {
-
-			if(frames.get(i).isStrike()){
-
-				bonus = frames.get(i+1).getFirstThrow() + frames.get(i+1).getSecondThrow();
-
-			}else if(frames.get(i).isSpare()){
-
-				bonus = frames.get(i+1).getFirstThrow();
-
-			}
-		}
-
-
-		int size = frames.size() - 1;
-
-
-		if(frames.get(size).isStrike()){
-
-			bonus = frames.get(frames.size()).getFirstThrow() + frames.get(frames.size()).getSecondThrow();
 		
-		}else if(frames.get(size).isSpare()){
-			
-			bonus = frames.get(frames.size()).getFirstThrow();
-		
-		}
 
 	}
 
@@ -55,11 +30,25 @@ public class BowlingGame {
 	public int score(){
 		//to be implemented: should return game score 
 
+		int bonus = 0; 
 		
+		for (int i = 0; i < frames.size(); i++) {
 
+			if(frames.get(i).isStrike() && (i < frames.size() - 1)){
 
+				bonus = frames.get(i+1).getFirstThrow() + frames.get(i+1).getSecondThrow() + frames.get(i).score() ;
 
+			}else if(frames.get(i).isSpare() && (i < frames.size() - 1)){
 
-		return 0;
+				bonus = frames.get(i+1).getFirstThrow() + frames.get(i).score();
+
+			}else if(frames.get(i).isStrike() || frames.get(i).isSpare()){
+				
+				bonus = frames.get(frames.size()).getFirstThrow()+ frames.get(i).score();
+			
+			}
+		}
+
+		return bonus;
 	}
 }

@@ -49,3 +49,9 @@ FileOpenedAction 1474551387149 Frame.java 890 6 9 0
 RefactoringAction 1474551489308 BowlingGame.java REMOVE bonus FIELD
 RefactoringAction 1474551492819 BowlingGame.java ADD int bonus FIELD
 EditAction 1474551639640 TestBowling.java 719 5 10 5
+FileOpenedAction 1474551955347 BowlingException.java 58 0 0 0
+FileOpenedAction 1474551963969 Frame.java 890 6 9 0
+FileOpenedAction 1474551991546 BowlingException.java 58 0 0 0
+FileOpenedAction 1474551994865 TestBowling.java 719 5 10 5
+FileOpenedAction 1474551997570 Frame.java 890 6 9 0
+EditAction 1474552042264 BowlingGame.java 1208 4 4 0
