@@ -24,3 +24,4 @@ RefactoringAction 1474546898944 TestBowling.java RENAME testIsSpare()/2=>void te
 RefactoringAction 1474546921993 TestBowling.java ADD void testIsStrike()/2 METHOD
 RefactoringAction 1474546924507 TestBowling.java RENAME testIsStrike()/2=>void testIsStrike2() METHOD
 EditAction 1474546962366 TestBowling.java 742 5 10 5
+EditAction 1474546963812 Frame.java 890 6 9 0
