@@ -1,0 +1,26 @@
+FileOpenedAction 1474544658755 BowlingGame.java 623 4 1 0
+FileOpenedAction 1474544698900 Frame.java 671 6 7 0
+RefactoringAction 1474545741820 Frame.java ADD import java.awt.Frame IMPORT
+RefactoringAction 1474545831062 Frame.java ADD int score FIELD
+RefactoringAction 1474545838594 Frame.java RENAME score()=>int score(int) METHOD
+RefactoringAction 1474545899157 Frame.java REMOVE score FIELD
+RefactoringAction 1474545904184 Frame.java RENAME score(int)=>int score() METHOD
+FileOpenedAction 1474546260099 TestBowling.java 165 1 1 0
+RefactoringAction 1474546342649 TestBowling.java RENAME test()=>void testScore() METHOD
+FileOpenedAction 1474546358559 TennisGame.java 923 2 5 0
+FileOpenedAction 1474546366639 SudokuVerifierTest.java 572 1 3 1
+RefactoringAction 1474546562396 TestBowling.java REMOVE import org.junit.Assert.* IMPORT
+FileOpenedAction 1474546563335 SudokuVerifierTest.java 572 1 3 1
+RefactoringAction 1474546603927 TestBowling.java ADD import org.junit.Assert.* IMPORT
+FileOpenedAction 1474546667202 SudokuVerifierTest.java 572 1 3 1
+FileOpenedAction 1474546680819 SudokuVerifierTest.java 572 1 3 1
+RefactoringAction 1474546775696 TestBowling.java ADD void testScore()/2 METHOD
+RefactoringAction 1474546780709 TestBowling.java RENAME testScore()/2=>void testisStrike() METHOD
+RefactoringAction 1474546783722 TestBowling.java RENAME testisStrike()=>void testIsStrike() METHOD
+RefactoringAction 1474546853892 TestBowling.java ADD void testIsStrike()/2 METHOD
+RefactoringAction 1474546862405 TestBowling.java RENAME testIsStrike()/2=>void testIsSpare() METHOD
+RefactoringAction 1474546895930 TestBowling.java ADD void testIsSpare()/2 METHOD
+RefactoringAction 1474546898944 TestBowling.java RENAME testIsSpare()/2=>void testIsSpare2() METHOD
+RefactoringAction 1474546921993 TestBowling.java ADD void testIsStrike()/2 METHOD
+RefactoringAction 1474546924507 TestBowling.java RENAME testIsStrike()/2=>void testIsStrike2() METHOD
+EditAction 1474546962366 TestBowling.java 742 5 10 5
