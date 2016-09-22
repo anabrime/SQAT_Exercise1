@@ -47,4 +47,7 @@ public class TestBowling {
 		assertEquals(frame.isSpare(), true);
 
 	}
+	
+	
+	
 }

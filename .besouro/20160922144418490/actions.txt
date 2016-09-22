@@ -41,3 +41,11 @@ CompilationAction 1474550422669 BowlingGame.java
 CompilationAction 1474550422669 BowlingGame.java
 RefactoringAction 1474550478675 BowlingGame.java ADD int score() METHOD
 EditAction 1474550747093 BowlingGame.java 1223 4 5 0
+FileOpenedAction 1474550811212 TestBowling.java 710 5 10 5
+RefactoringAction 1474550828235 TestBowling.java ADD void testIsSpare2()/2 METHOD
+RefactoringAction 1474550837246 TestBowling.java RENAME testIsSpare2()/2=>void testSetBonus() METHOD
+RefactoringAction 1474551071423 TestBowling.java REMOVE testSetBonus() METHOD
+FileOpenedAction 1474551387149 Frame.java 890 6 9 0
+RefactoringAction 1474551489308 BowlingGame.java REMOVE bonus FIELD
+RefactoringAction 1474551492819 BowlingGame.java ADD int bonus FIELD
+EditAction 1474551639640 TestBowling.java 719 5 10 5
