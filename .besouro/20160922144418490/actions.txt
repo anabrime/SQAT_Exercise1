@@ -30,3 +30,7 @@ EditAction 1474546970235 TestBowling.java 710 5 10 5
 UnitTestCaseAction 1474546995819 SudokuVerifierTest.java OK
 UnitTestSessionAction 1474546995820 SudokuVerifierTest.java OK
 EditAction 1474547013138 Frame.java 888 6 9 0
+UnitTestCaseAction 1474547013974 TestBowling.java OK
+UnitTestSessionAction 1474547013977 SQAT_Exercise1 OK
+RefactoringAction 1474550408992 BowlingGame.java REMOVE score() METHOD
+EditAction 1474550422391 Frame.java 890 6 9 0
